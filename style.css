@@ -1,16 +1,31 @@
 
 
- @media only screen and (max-width:701px) {
+ @media only screen and (max-width:1093px) {
     .firstbar{
         display:none;
     }
  }
 
-@media only screen and (min-width:700px) {
+@media only screen and (min-width:1094px) {
     .secondbar{
         display:none;
     }
 }
+
+@media only screen and (max-width:1094px) {
+    .blackman{
+        display:none;
+    }
+}
+
+@media only screen and (min-width:1094px) {
+    .Mobile{
+        display:none;
+    }
+}
+
+
+
 
 .firstbar{
     padding-top: 32px;
@@ -38,12 +53,7 @@
 
 }
 
-.oneimg{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 
 header{
     padding-top: 32px;
@@ -132,3 +142,9 @@ footer{
 #thesis{
     margin-top: 14px !important;
 }
+
+button{
+    width: 100%;
+    text-align: center;
+
+} 
