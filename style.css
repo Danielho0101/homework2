@@ -45,8 +45,6 @@
 }
 
 .btn{
-    padding-left: 150px;
-    padding-right: 150px;
     padding-top: 8px;
     padding-bottom: 8px;
     position: relative;
@@ -146,5 +144,3 @@ footer{
 button{
     width: 100%;
     text-align: center;
-
-} 
